@@ -32,7 +32,7 @@ body {
     padding-left: 0px;
 }
 button {
-	border-radius: 12px;
+	border-radius: 1px;
 	background-color: darkblue;
 	font-size: 32px;
 	display: inline-block;
@@ -43,7 +43,7 @@ button {
 	top: 80px;
 	z-index: 1;
 	position: fixed;
-    background-color: #1A158A;
+    background-color: #022B7E;
     display: block;
     width: 11%;
     height: 100%;
@@ -53,17 +53,21 @@ button {
 	overflow-x: hidden;
 }
 .link {
+	text-align: center;
 	border-radius: 20px;
 	margin-right: 1px;
 	margin-top: 10px;
-	border-color: #680102;
+	border-color: #100064;
 	border-style: solid;
     padding-top: 6px;
-    padding-right: 8px;
+    padding-right: 6px;
     padding-left: 5px;
     padding-bottom: 6px;
     text-decoration: none;
     font-size: 25px;
-    color: #DB0D10;
+    color: #03004A;
     display: block;
+}
+.link:hover {
+	background-color: #5400EF;
 }
